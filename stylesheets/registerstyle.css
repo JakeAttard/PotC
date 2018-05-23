@@ -1,0 +1,9 @@
+body {
+  background-image: url(../assets/registerbg-img.jpg);
+}
+
+.footer-item{
+  padding-top: 200px;
+  display: inline-block;
+  margin-left: 40px;
+}

@@ -1,0 +1,52 @@
+body {
+  background-image: url(../assets/foodbg-img.jpg);
+}
+
+.wrap {
+  display: flex;
+}
+
+.left {
+  flex-basis: 50%;
+}
+
+.right {
+  flex-basis: 50%;
+
+  height: 100vh;
+  overflow: auto;
+}
+
+.aboutusheader {
+  margin-top: 50px;
+}
+
+.aboutusp {
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+.awardsh1 {
+  margin-top: 250px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+ul li {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.openinghours {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.openinghoursp {
+  margin-top: 60px;
+}
+
+.openinghoursp2 {
+  margin-top: 60px;
+}

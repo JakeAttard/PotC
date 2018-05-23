@@ -1,0 +1,29 @@
+p {
+  font-size: 20px;
+}
+
+.functionslist {
+  text-align: center;
+}
+
+ul {
+  margin-left: 100px;
+  list-style: none;
+  font-size: 20px;
+  list-style: none;
+}
+
+.functionsp {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.functionsevent {
+  margin-top: 50px;
+  margin-left: 120px;
+  text-align: center;
+}
+
+.specialeventsimg {
+  width: 100%;
+}
