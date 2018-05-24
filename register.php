@@ -61,11 +61,11 @@ echo mysqli_error($con);
 </header>
 <nav>
   <ul>
-    <a href="index.html"><li>Home</li></a>
-    <a href="about.html"><li>About</li></a>
-    <a href="menu.html"><li>Menu</li></a>
-    <a href="functions.html"><li>Special Events</li></a>
-    <a href="contact.html"><li>Contact Us</li></a>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.php">Menu</a></li>
+    <li><a href="functions.html">Special Events</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
   </ul>
 </nav>
 
@@ -91,7 +91,7 @@ echo mysqli_error($con);
 
 </div>
 
-<div id="footer" >
+<!-- <div id="footer" >
   <p><span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
     <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -101,6 +101,17 @@ echo mysqli_error($con);
 
          <span class="footer-item"> Address: 23 King Street Paradise Point 4216</span>
         </p>
+</div> -->
+<div id="footer" >
+  <span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
+    <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.tripadvisor.com.au/Restaurants" target="_blank"><i class="fab fa-tripadvisor"></i></a>
+          </span>
+
+         <span class="footer-item"> Address: 23 King Street Paradise Point 4216</span>
+
 </div>
   </body>
 </html>
