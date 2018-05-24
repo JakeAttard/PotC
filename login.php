@@ -67,22 +67,8 @@ echo mysqli_error($con);
     <input type="password" name="password" Placeholder="Password">
     <input type ="submit" name="login" value="Login">
 </form>
-
-
-
 </div>
 
-<!-- <div id="footer" >
-  <p><span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
-    <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.tripadvisor.com.au/Restaurants" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-          </span>
-
-         <span class="footer-item"> Address: 23 King Street Paradise Point 4216</span>
-        </p>
-</div> -->
 <div id="footer" >
   <span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
     <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>

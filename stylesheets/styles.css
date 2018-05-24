@@ -17,6 +17,11 @@ header a {
   margin: 10px 20px 30px 40px;
 }
 
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
 nav ul {
   background-color: #5C2018;
   overflow: hidden;
@@ -24,6 +29,11 @@ nav ul {
   padding: 0;
   text-align: center;
   margin:0;
+  -webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
 }
 
 nav ul li {

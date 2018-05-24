@@ -19,6 +19,13 @@ li input[type='submit']{
   color:white;
 }
 
+ul li {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+
   *, *:before, *:after {
     margin: 0;
     padding: 0;
