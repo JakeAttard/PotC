@@ -2,12 +2,11 @@ body {
   background-image: url(../assets/loginbg-img.jpg);
 }
 
-.footer-item{
+.footer-item {
   padding-top: 400px;
   display: inline-block;
   margin-left: 40px;
 }
-
 
 ul li {
   text-align: left;

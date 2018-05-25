@@ -16,6 +16,7 @@ body {
 header {
   width: 100%;
 }
+
 header .POTC {
   position: relative;
   z-index: 30;
@@ -28,6 +29,7 @@ header .POTC {
   text-transform: uppercase;
   margin: 20px;
 }
+
 @media only screen and (min-width: 481px) {
   header .POTC {
     margin: 0;
@@ -35,7 +37,7 @@ header .POTC {
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -43,6 +45,7 @@ main {
   width: 100%;
   height: 100%;
 }
+
 @media only screen and (min-width: 481px) {
   main {
     display: flex;
@@ -63,6 +66,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 section:after {
   content: '';
   position: absolute;
@@ -75,9 +79,11 @@ section:after {
   opacity: .5;
   transition: opacity 250ms ease-out;
 }
+
 section:hover:after {
   opacity: .25;
 }
+
 @media only screen and (min-width: 481px) {
   section {
     height: 50%;
@@ -86,6 +92,7 @@ section:hover:after {
     flex-basis: 33%;
   }
 }
+
 section div {
   text-decoration: none;
   position: relative;
@@ -100,6 +107,7 @@ section div {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
   transition: font-size 250ms ease-out;
 }
+
 @media only screen and (min-width: 769px) {
   section div {
     font-size: 150%;

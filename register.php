@@ -73,35 +73,24 @@ echo mysqli_error($con);
 
     <form action="" method="POST" class="form">
 
-       <input type="text" name="firstname" Placeholder="First name">
+       <input type="text" name="firstname" Placeholder="First name" required>
 
-       <input type="text" name="lastname" Placeholder="Last Name">
+       <input type="text" name="lastname" Placeholder="Last Name" required>
 
-       <input type="text" name="address" Placeholder="Address">
+       <input type="text" name="address" Placeholder="Address" required>
 
-       <input type="text" name="phone" Placeholder="Phone Number">
+       <input type="text" name="phone" Placeholder="Phone Number" required>
 
-      <input type="type" name="email" Placeholder="Email">
+      <input type="type" name="email" Placeholder="Email" required>
 
-      <input type="password" name="password" Placeholder="Password">
+      <input type="password" name="password" Placeholder="Password" required>
 
-      <input type="submit" name="register" value="Register">
+      <input type="submit" name="register" value="Register" required>
 
   </form>
 
 </div>
 
-<!-- <div id="footer" >
-  <p><span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
-    <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.tripadvisor.com.au/Restaurants" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-          </span>
-
-         <span class="footer-item"> Address: 23 King Street Paradise Point 4216</span>
-        </p>
-</div> -->
 <div id="footer" >
   <span class="footer-item">Phone: 1111 1111</span> <span class="footer-item">Email: inquiry@potc.com</span>
     <span class="footer-item">          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>

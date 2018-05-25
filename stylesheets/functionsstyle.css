@@ -1,5 +1,6 @@
-p {
-  font-size: 20px;
+body {
+  background-image: url(../assets/specialeventsbg-img.jpg);
+  background-size: cover;
 }
 
 .functionslist {
@@ -26,10 +27,50 @@ ul li {
 
 .functionsevent {
   margin-top: 50px;
-  margin-left: 120px;
   text-align: center;
 }
 
-.specialeventsimg {
+p {
+  color: black;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.all-flex-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin: 0 2em;
+}
+
+.flex-item {
+  width: 47%;
+  flex: 0 0 47%;
+  border: 1px solid #444;
+  margin: 0.5em 1%;
+  background: #BC4639;
+}
+
+@media (min-width: 64em) {
+  .flex-item {
+    width: 31%;
+    flex: 0 0 31%;
+  }
+}
+
+.flex-item img {
+  max-width: 100%;
   width: 100%;
+}
+
+.flex-item h4 {
+  text-align: center;
+  margin: 0.3em 0;
+  padding: 0;
+  font-size: 1.1rem;
+  display: block;
+  color: white;
 }
