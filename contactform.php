@@ -3,14 +3,6 @@ if(isset($_POST['email'])) {
 
     $email_to = "inquiry@potc.com";
     $email_subject = "POTC Inquiry";
-
-
-    function died($error) {
-        echo "Pastasciutta on the Coast would like to advise you that there were errors found with the message you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
-        die();
     }
 
     if(!isset($_POST['first_name']) ||
@@ -18,7 +10,6 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['number']) ||
         !isset($_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
 
@@ -72,8 +63,4 @@ if(isset($_POST['email'])) {
 ?>
 
 Thank you for contacting Pastasciutta on the Coast. We will be in touch with you very soon.
-
-<?php
-
-}
 ?>

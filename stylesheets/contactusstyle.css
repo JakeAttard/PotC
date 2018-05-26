@@ -18,6 +18,10 @@ table {
   margin-right: auto;
 }
 
+textarea {
+  margin-left: 50px;
+}
+
 #footer {
   padding-top: 200px;
 }

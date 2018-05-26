@@ -13,24 +13,8 @@ include("connection.php");
     <link rel="stylesheet" href="./stylesheets/menustyle.css">
   </head>
   <body>
-    <header>
-        <a href="menu.php" class="special"><strong>CLICK HERE TO SEE OUR MENU</strong></a>
-        <a href="login.php">Login</a>
-        <a href="register.php">Register</a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.tripadvisor.com.au/Restaurants" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-</header>
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="menu.php">Menu</a></li>
-    <li><a href="functions.html">Special Events</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-  </ul>
-</nav>
+
+    <?php include('navbar.php'); ?>
 
 
 <div style="width:50%;margin:0 auto; padding-top:50px;">
