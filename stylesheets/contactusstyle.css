@@ -3,13 +3,19 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul li {
   text-align: left;
   margin-left: 25px;
   font-size: 20px;
+}
+
+.formtable {
+  color: black;
 }
 
 table {
@@ -20,8 +26,10 @@ table {
 
 textarea {
   margin-left: 50px;
+  width: 340px;
 }
 
 #footer {
   padding-top: 200px;
+  color: black;
 }

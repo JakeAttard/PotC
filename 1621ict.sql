@@ -66,7 +66,20 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`PRODID`, `PRODUCTNAME`, `DESCRIPTION`, `PRICE`, `image`) VALUES
-
+(1, 'Bread & Dips', 'Enjoy a warm Focaccia loaf served with glazed dressing and garlic dip.', 15.99, 'calzone.jpg'),
+(2, 'Bruschetta', 'Enjoy 2 warm slices of ciabatta bread, toasted with garlic, parsely and freshly diced tomato.', 13.99, 'brushchetta.jpg'),
+(3, 'Garlic Prawns', '8 prawns sauteed in a light creamy garlic sauce.', 18.99, 'garlicprawns.jpeg'),
+(4, 'Chicken Schnitzel', 'Crumbly oven baked chicken breast topped with our freshly made sauce.', 26.99, 'chickenschnitzel.jpg'),
+(5, 'Grilled Barramundi', 'Grilled fillet with golden cooked chips with lemon wedges.', 32.99, 'barramundi.jpeg'),
+(6, 'Garlic Pizza', 'With fresh olives, garlic and mozzarella.', 12.99, 'garlicpizza.jpg'),
+(7, 'Meat Lovers Pizza', 'Fresh crunchy bacon, hame and salami.', 12.99, 'meatloverspizza.jpg'),
+(8, 'Vegetarian Pizza', 'Freshmouth watering tomatoes, mushrooms and eggplant.', 12.99, 'vegetarianpizza.jpg'),
+(9, 'Spaghetti Marinara Pasta', 'Spaghetti Bolognese tossed in a pan mixed with seafood, garlic and onions.', 21.99, 'marinarapasta.jpeg'),
+(10, 'Spaghetti Bolognese Pasta', 'Spaghetti cooked with traditional style homemade meat suace.', 19.99, 'bolognesepasta.jpg'),
+(11, 'Kids Cardinale Pizza', 'Mozzarella cheese and ham.', 9.99, 'cardinalepizza.jpg'),
+(12, 'Kids Spaghetti Bolognese Pasta', 'Spaghetti cooked with traditional style homemade meat suace.', 9.99, 'kidsbolognese.jpg'),
+(13, 'Kids Ice Cream', 'Soft cold traditional Italian Ice Cream for the children', 4.99, 'icecream.jpg'),
+(14, 'Baci', 'Creamy hazelnut chocolate topping for your perfect desert.', 7.99, 'baci.jpg');
 --
 -- Indexes for dumped tables
 --

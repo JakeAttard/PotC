@@ -31,10 +31,14 @@ echo mysqli_error($con);
 ?>
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="Pastaciutta On The Coast">
+  <meta name="keywords" content="HTML,CSS,PHP">
+  <meta name="author" content="Jake Attard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
   <link rel="stylesheet" href="./stylesheets/styles.css">

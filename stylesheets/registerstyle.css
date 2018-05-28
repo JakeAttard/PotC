@@ -13,3 +13,13 @@ ul li {
   margin-left: 25px;
   font-size: 20px;
 }
+
+input {
+    border: 1px solid white;
+    color: white !important;
+}
+
+::Placeholder {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+}

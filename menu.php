@@ -7,7 +7,11 @@ include("connection.php");
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="Pastaciutta On The Coast">
+  <meta name="keywords" content="HTML,CSS,PHP">
+  <meta name="author" content="Jake Attard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -21,7 +25,7 @@ include("connection.php");
          <h1>Menu</h1>
 
          <li>
-           <form action="search.php" method="GET"><input type="text" name="search"><input type="submit" value="Search"></form>
+           <form action="search.php" method="GET"><input type="text" name="search" placeholder="Search for your favourite dish!"><input type="submit" value="Search"></form>
          </li>
 
          <div style="width:50%;margin:0 auto; padding-top:50px;">

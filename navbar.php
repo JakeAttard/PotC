@@ -1,21 +1,18 @@
 <header>
   <a href="menu.php" class="special"><strong>CLICK HERE TO SEE OUR MENU</strong></a>
+    <?php
+      if(isset($_SESSION['email'])){
 
-      <?php if(isset($_SESSION['email'])){
+       echo "<a href='#'>".$_SESSION['email']."</a>";
+       echo "<a href='logout.php'>Logout</a>";
+     }
+     else {
 
-        echo "<a href='#'>".$_SESSION['email']."</a>";
-        echo "<a href='logout.php'>Logout</a>";
-      }else{?>
-
-  <a href="login.php">Login</a>
-  <a href="register.php">Register</a>
-
-
-     <?php }
-
-
-       ?>
-
+      echo "<a href='login.php'>Login</a>";
+      echo "<a href='register.php'>Register</a>";
+     } 
+    ?>
+  
        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>

@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="Pastaciutta On The Coast">
+  <meta name="keywords" content="HTML,CSS,PHP">
+  <meta name="author" content="Jake Attard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Special Events</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -23,22 +27,22 @@
 
   <div class="all-flex-items">
     <div class="flex-item">
-      <a href="#"><img src="./assets/corporatefunctions.jpg"><h4>Corporate Functions</h4></a>
+      <a href="contact.php"><img src="./assets/corporatefunctions.jpg"><h4>Corporate Functions</h4></a>
     </div>
     <div class="flex-item">
-      <a href="#"><img src="./assets/birthdays.jpg"><h4>Birthdays</h4></a>
+      <a href="contact.php"><img src="./assets/birthdays.jpg"><h4>Birthdays</h4></a>
     </div>
     <div class="flex-item">
-      <a href="#"><img src="./assets/anniversaries.jpg"><h4>Anniversaries</h4></a>
+      <a href="contact.php"><img src="./assets/anniversaries.jpg"><h4>Anniversaries</h4></a>
     </div>
     <div class="flex-item">
-      <a href="#"><img src="./assets/engagements.jpg"><h4>Engagements</h4></a>
+      <a href="contact.php"><img src="./assets/engagements.jpg"><h4>Engagements</h4></a>
     </div>
     <div class="flex-item">
-      <a href="#"><img src="./assets/weddingreceptions.jpg"><h4>Wedding Receptions</h4></a>
+      <a href="contact.php"><img src="./assets/weddingreceptions.jpg"><h4>Wedding Receptions</h4></a>
     </div>
     <div class="flex-item">
-      <a href="#"><img src="./assets/wakes.jpg"><h4>Wakes</h4></a>
+      <a href="contact.php"><img src="./assets/wakes.jpg"><h4>Wakes</h4></a>
     </div>
   </div>
 
